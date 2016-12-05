@@ -15,8 +15,8 @@ class WP_Woocommerce_Main_Image {
     }
 
     function theme_js(){
-        wp_enqueue_script('WP_Woocommerce_Main_Image_jquery-zoom', plugins_url('jquery-zoom/jquery.zoom.min.js', __FILE__), array('jquery'));
-        wp_enqueue_script('WP_Woocommerce_Main_Image_main', plugins_url('main.js', __FILE__), array('jquery'));
+        wp_enqueue_script('WP_Woocommerce_Main_Image_jquery-zoom', plugins_url('assets/jquery-zoom/jquery.zoom.min.js', __FILE__), array('jquery'));
+        wp_enqueue_script('WP_Woocommerce_Main_Image_main', plugins_url('assets/main.js', __FILE__), array('jquery'));
     }
 }
 
